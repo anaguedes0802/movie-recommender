@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# data (run download_data.py)
+data/
+*.csv
+!results/*.csv
+
+# editor / OS
+.vscode/
+.idea/
+.ipynb_checkpoints/
+.pytest_cache/
+Thumbs.db
+.DS_Store
