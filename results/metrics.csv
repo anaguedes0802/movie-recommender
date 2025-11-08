@@ -1,0 +1,9 @@
+model,precision@10,recall@10,ndcg@10,users,coverage,recall@10 (cold-start)
+Popularity,0.0571,0.0497,0.0743,592,0.0101,0.0094
+TF-IDF (genres only),0.0064,0.0083,0.0102,592,0.2613,0.0205
+TF-IDF (genres + overview),0.0044,0.0038,0.0067,592,0.0497,0.0299
+Embeddings,0.0039,0.0059,0.0050,592,0.0665,0.0226
+Embeddings + genres,0.0073,0.0072,0.0091,592,0.1018,0.0332
+ItemKNN,0.0713,0.0743,0.0902,592,0.0491,0.0094
+PureSVD (k=16),0.0856,0.0851,0.1085,592,0.0457,0.0094
+"Hybrid (PureSVD + Embeddings + genres, alpha=0.7)",0.0846,0.0849,0.1082,592,0.0521,0.0332
